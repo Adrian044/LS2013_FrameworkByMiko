@@ -19,7 +19,4 @@ Download the zip package and unpack into `Documents\My Games\FarmingSimulator201
 **General Public License v3**
 
 **Author**: [Rafał Mikołajun](http://www.swiat-ls.pl/spolecznosc/3-miko/profile.html)
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/1.42
