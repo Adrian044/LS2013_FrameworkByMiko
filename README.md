@@ -19,3 +19,6 @@ Download the zip package and unpack into `Documents\My Games\FarmingSimulator201
 **General Public License v3**
 
 **Author**: [Rafał Mikołajun](http://www.swiat-ls.pl/spolecznosc/3-miko/profile.html)
+
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/3dd88de23b1e0e8d923eaa4a2ce6a3df "githalytics.com")](http://githalytics.com/mikoweb/LS2013_FrameworkByMiko)
