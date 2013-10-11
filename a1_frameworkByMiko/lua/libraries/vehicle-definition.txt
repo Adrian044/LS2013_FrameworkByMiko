@@ -1,0 +1,1541 @@
+__unnamed__ = {
+   ["characterDistanceRefNode"] = 43447;
+   ["compressionSoundPitchOffset"] = 1;
+   ["sentFuelFillLevel"] = 70;
+   ["activeDirtyMovingParts"] = {
+      [1] = {
+         ["referenceDistance"] = 0;
+         ["referenceFrame"] = 43399;
+         ["referencePoint"] = 43402;
+         ["dependentParts"] = {};
+         ["localReferenceDistance"] = 0.3199839915613;
+         ["useLocalOffset"] = false;
+         ["playSound"] = false;
+         ["inputAttacherJoint"] = false;
+         ["invertZ"] = false;
+         ["dependentPartNodes"] = {};
+         ["localReferencePoint"] = {
+            [1] = 0.00043316939263605;
+            [2] = -0.014724731445313;
+            [3] = 0.31964501738548;
+         };
+         ["isDirty"] = false;
+         ["translatingParts"] = {};
+         ["node"] = 43465;
+         ["scaleZ"] = true;
+      };
+      [2] = {
+         ["referenceDistance"] = 0;
+         ["referenceFrame"] = 43399;
+         ["referencePoint"] = 43405;
+         ["dependentParts"] = {};
+         ["localReferenceDistance"] = 0.31998354500003;
+         ["useLocalOffset"] = false;
+         ["playSound"] = false;
+         ["inputAttacherJoint"] = false;
+         ["invertZ"] = false;
+         ["dependentPartNodes"] = {};
+         ["localReferencePoint"] = {
+            [1] = -0.00043316939263605;
+            [2] = -0.014724731445313;
+            [3] = 0.31964457035065;
+         };
+         ["isDirty"] = false;
+         ["translatingParts"] = {};
+         ["node"] = 43466;
+         ["scaleZ"] = true;
+      };
+   };
+   ["aiTractorDirectionNode"] = 43399;
+   ["characterSpineNodeMinAcc"] = -1e-006;
+   ["downForce"] = 6;
+   ["cylinderedHydraulicSoundVolume"] = 1;
+   ["steeringLastRotation"] = 0;
+   ["isAddedToMission"] = true;
+   ["startMotor"] = "function: 19E0C3A0, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["steeringAnimationTime"] = 0;
+   ["characterNode"] = 43447;
+   ["motorStopSound"] = 43552;
+   ["playHonk"] = "function: 158F60F8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["cylinderedHydraulicSoundPitch"] = 1;
+   ["sideWatchDirSize"] = 7;
+   ["compressionSoundVolume"] = 1.5;
+   ["dynamicWheelFrictionCosAngleMin"] = 0.57357643635105;
+   ["aiTrafficCollisionTrigger"] = 43448;
+   ["attacherJoints"] = {
+      [1] = {
+         ["jointIndex"] = 0;
+         ["ptoActive"] = false;
+         ["maxRotRotationOffset"] = 0;
+         ["rootNode"] = 43399;
+         ["maxRot"] = {
+            [1] = 0.034906585039887;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["minRot2"] = {
+            [1] = -0.50614548307836;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["minRot"] = {
+            [1] = 0.62831853071796;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["bottomArm"] = {
+            ["rotX"] = -0.43413317203522;
+            ["referenceDistance"] = 0.6986155538214;
+            ["zScale"] = -1;
+            ["translationNode"] = 43423;
+            ["rotY"] = 0;
+            ["rotZ"] = 0;
+            ["rotationNode"] = 43422;
+         };
+         ["maxRot2"] = {
+            [1] = -0.034906585039887;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["maxTransLimit"] = {
+            [1] = 0;
+            [2] = 0.5;
+            [3] = 0;
+         };
+         ["minRotRotationOffset"] = 0.13962634015955;
+         ["rotationNode"] = 43419;
+         ["jointTransform"] = 43421;
+         ["enableCollision"] = false;
+         ["allowsJointLimitMovement"] = true;
+         ["jointType"] = 1;
+         ["ptoOutput"] = {
+            ["attachNode"] = 43494;
+            ["dirAndScaleNode"] = 43493;
+            ["rotation"] = 0;
+            ["baseDistance"] = 1.5418900251389;
+            ["node"] = 43442;
+            ["rootNode"] = 43492;
+         };
+         ["minRotDistanceToGround"] = 1;
+         ["minTransLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["topArm"] = {
+            ["rotationNode"] = 43510;
+            ["scaleReferenceDistance"] = 0.38801801204681;
+            ["zScale"] = 1;
+            ["rotZ"] = 0;
+            ["rotX"] = 0;
+            ["scaleNode"] = 43513;
+            ["rotY"] = 3.1415926535898;
+            ["referenceDistance"] = 0.59190493822098;
+            ["translationNode"] = 43511;
+         };
+         ["moveTime"] = 2500;
+         ["maxRotLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0.34906585039887;
+         };
+         ["maxRotDistanceToGround"] = 0.7;
+         ["allowsLowering"] = true;
+         ["jointOrigRot"] = {
+            [1] = 0;
+            [2] = 1.5707963705063;
+            [3] = 0;
+         };
+         ["rotationNode2"] = 43420;
+         ["minRotLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+      };
+      [2] = {
+         ["jointIndex"] = 0;
+         ["ptoActive"] = false;
+         ["maxRotRotationOffset"] = 0;
+         ["rootNode"] = 43399;
+         ["maxRot"] = {
+            [1] = -0.24434609527921;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["minRot2"] = {
+            [1] = 0.85521133347722;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["minRot"] = {
+            [1] = -1.0122909661567;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["bottomArm"] = {
+            ["rotX"] = 0;
+            ["referenceDistance"] = 0.57743501663208;
+            ["zScale"] = 1;
+            ["translationNode"] = 43437;
+            ["rotY"] = 0;
+            ["rotZ"] = 0;
+            ["rotationNode"] = 43436;
+         };
+         ["maxRot2"] = {
+            [1] = 0.24434609527921;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["maxTransLimit"] = {
+            [1] = 0;
+            [2] = 0.4;
+            [3] = 0;
+         };
+         ["minRotRotationOffset"] = 0.13962634015955;
+         ["rotationNode"] = 43433;
+         ["jointTransform"] = 43435;
+         ["enableCollision"] = false;
+         ["allowsJointLimitMovement"] = true;
+         ["jointType"] = 1;
+         ["ptoOutput"] = {
+            ["attachNode"] = 43518;
+            ["dirAndScaleNode"] = 43517;
+            ["rotation"] = 0;
+            ["baseDistance"] = 1.5418900251389;
+            ["node"] = 43444;
+            ["rootNode"] = 43516;
+         };
+         ["minRotDistanceToGround"] = 1;
+         ["minTransLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["topArm"] = {
+            ["rotationNode"] = 43533;
+            ["scaleReferenceDistance"] = 0.27201601862907;
+            ["zScale"] = 1;
+            ["rotZ"] = 0;
+            ["rotX"] = 0;
+            ["scaleNode"] = 43536;
+            ["rotY"] = 0;
+            ["referenceDistance"] = 0.41580900549889;
+            ["translationNode"] = 43534;
+         };
+         ["moveTime"] = 2500;
+         ["maxRotLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0.34906585039887;
+         };
+         ["maxRotDistanceToGround"] = 0.7;
+         ["allowsLowering"] = true;
+         ["jointOrigRot"] = {
+            [1] = 0;
+            [2] = -1.5707963705063;
+            [3] = 0;
+         };
+         ["rotationNode2"] = 43434;
+         ["minRotLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+      };
+      [3] = {
+         ["ptoActive"] = false;
+         ["jointTransform"] = 43441;
+         ["jointIndex"] = 0;
+         ["allowsJointLimitMovement"] = false;
+         ["jointType"] = 2;
+         ["maxRotRotationOffset"] = 0;
+         ["ptoOutput"] = {
+            ["attachNode"] = 43541;
+            ["dirAndScaleNode"] = 43540;
+            ["rotation"] = 0;
+            ["baseDistance"] = 1.5418900251389;
+            ["node"] = 43442;
+            ["rootNode"] = 43539;
+         };
+         ["rootNode"] = 43399;
+         ["enableCollision"] = false;
+         ["minTransLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["maxTransLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["minRotLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["allowsLowering"] = false;
+         ["jointOrigRot"] = {
+            [1] = 0;
+            [2] = 1.5707963705063;
+            [3] = 0;
+         };
+         ["maxRotLimit"] = {
+            [1] = 0.17453292519943;
+            [2] = 1.3962634015955;
+            [3] = 1.3962634015955;
+         };
+         ["minRotRotationOffset"] = 0;
+      };
+      [4] = {
+         ["ptoActive"] = false;
+         ["jointTransform"] = 43443;
+         ["jointIndex"] = 0;
+         ["allowsJointLimitMovement"] = false;
+         ["jointType"] = 3;
+         ["maxRotRotationOffset"] = 0;
+         ["ptoOutput"] = {
+            ["attachNode"] = 43546;
+            ["dirAndScaleNode"] = 43545;
+            ["rotation"] = 0;
+            ["baseDistance"] = 1.5418900251389;
+            ["node"] = 43442;
+            ["rootNode"] = 43544;
+         };
+         ["rootNode"] = 43399;
+         ["enableCollision"] = false;
+         ["minTransLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["maxTransLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["minRotLimit"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["allowsLowering"] = false;
+         ["jointOrigRot"] = {
+            [1] = 0;
+            [2] = 1.5707963705063;
+            [3] = 0;
+         };
+         ["maxRotLimit"] = {
+            [1] = 0.17453292519943;
+            [2] = 0.87266462599716;
+            [3] = 0.87266462599716;
+         };
+         ["minRotRotationOffset"] = 0;
+      };
+   };
+   ["lastRealAcceleration"] = 0;
+   ["compressionSoundTime"] = 180470.28770828;
+   ["aiTurnNoBackward"] = false;
+   ["tickDt"] = 49.027241706848;
+   ["numCameras"] = 2;
+   ["rootNode"] = 43399;
+   ["hudBasePosY"] = 0.01238;
+   ["motorSoundPitchScale"] = 0.019999999552965;
+   ["honkSoundRadius"] = 80;
+   ["isActive"] = false;
+   ["refuelSampleRunning"] = false;
+   ["aiTurnWidthMaxDifference"] = 0.5;
+   ["hudBasePosX"] = 0.7543;
+   ["characterSpineLastRotation"] = 0;
+   ["onEnter"] = "function: 158F19D8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["lengthOffset"] = 0;
+   ["numCollidingVehicles"] = {};
+   ["hudBarOffsetY"] = 0.04;
+   ["lastPosition"] = {
+      [1] = -48;
+      [2] = 124.99636077881;
+      [3] = -51.999855041504;
+   };
+   ["steeringAxleNode"] = 43399;
+   ["fuelFillTriggers"] = {};
+   ["refuelSample"] = 43550;
+   ["isFuelFilling"] = false;
+   ["aiTractorTurnRadius"] = 5;
+   ["stopMotor"] = "function: 19E0EAA0, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["wheelRpm"] = 0;
+   ["forceIsActive"] = false;
+   ["waitForTurnTime"] = 0;
+   ["backwardDecelerationSpeed"] = 0.00069999998807907;
+   ["baseDirectory"] = "";
+   ["hudBaseWidth"] = 0.2371;
+   ["attachSound"] = 43478;
+   ["brakeLights"] = {
+      [1] = 43416;
+   };
+   ["turnTimeout"] = 800;
+   ["turnTimeoutLong"] = 8000;
+   ["minRotTime"] = -0.42857142857143;
+   ["compressionSound"] = 43558;
+   ["wheelFrictionScale"] = 1;
+   ["interpolationAlpha"] = 0;
+   ["motorizedDirtyFlag"] = 2;
+   ["movingTools"] = {
+      [1] = {
+         ["lastRotSpeed"] = 0;
+         ["invertAxis"] = false;
+         ["transMax"] = 1;
+         ["invertMouseAxis"] = false;
+         ["lastTransSpeed"] = 0;
+         ["node"] = 43422;
+         ["curTrans"] = {
+            [1] = 0.00036724098026752;
+            [2] = 0.56817299127579;
+            [3] = -1.1502200365067;
+         };
+         ["speedFactor"] = 1;
+         ["isDirty"] = false;
+         ["dependentParts"] = {
+            ["table: 0F0C07E0"] = {
+               ["referenceDistance"] = 0.49633836041145;
+               ["referenceFrame"] = 43399;
+               ["referencePoint"] = 43425;
+               ["dependentParts"] = {
+                  ["table: 0F0C0920"] = {
+                     ["referenceDistance"] = 0;
+                     ["referenceFrame"] = 43430;
+                     ["referencePoint"] = 43425;
+                     ["dependentParts"] = {};
+                     ["localReferenceDistance"] = 0.49634068058043;
+                     ["useLocalOffset"] = false;
+                     ["playSound"] = true;
+                     ["inputAttacherJoint"] = false;
+                     ["invertZ"] = false;
+                     ["dependentPartNodes"] = {};
+                     ["localReferencePoint"] = {
+                        [1] = 0.00036724098026752;
+                        [2] = 0.0040028742514551;
+                        [3] = 0.49632453918457;
+                     };
+                     ["isDirty"] = false;
+                     ["translatingParts"] = {};
+                     ["node"] = 43432;
+                     ["scaleZ"] = false;
+                  };
+               };
+               ["inputAttacherJoint"] = false;
+               ["localReferenceDistance"] = 0.31485139162946;
+               ["useLocalOffset"] = false;
+               ["playSound"] = true;
+               ["isDirty"] = false;
+               ["invertZ"] = true;
+               ["dependentPartNodes"] = {
+                  [1] = 43432;
+               };
+               ["localReferencePoint"] = {
+                  [1] = 0;
+                  [2] = 0.0025577584747225;
+                  [3] = -0.31484100222588;
+               };
+               ["translatingParts"] = {};
+               ["localReferenceAngleSide"] = -0.15082473056445;
+               ["node"] = 43429;
+               ["scaleZ"] = false;
+            };
+            ["table: 0F0C0A10"] = {
+               ["referenceDistance"] = 0;
+               ["referenceFrame"] = 43399;
+               ["referencePoint"] = 43426;
+               ["dependentParts"] = {};
+               ["localReferenceDistance"] = 0.46027755540365;
+               ["useLocalOffset"] = false;
+               ["playSound"] = true;
+               ["inputAttacherJoint"] = false;
+               ["invertZ"] = true;
+               ["dependentPartNodes"] = {};
+               ["localReferencePoint"] = {
+                  [1] = 0.00036724098026752;
+                  [2] = -0.012162548489869;
+                  [3] = -0.46011683344841;
+               };
+               ["isDirty"] = false;
+               ["translatingParts"] = {};
+               ["node"] = 43467;
+               ["scaleZ"] = true;
+            };
+         };
+         ["rotationAxis"] = 1;
+         ["isActive"] = true;
+         ["curRot"] = {
+            [1] = -0.43413317203522;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["translationAxis"] = 3;
+         ["dependentPartNodes"] = {
+            [1] = 43429;
+            [2] = 43467;
+         };
+         ["transSendNumBits"] = 8;
+         ["inputAttacherJoint"] = false;
+         ["transMin"] = 0;
+         ["rotSendNumBits"] = 8;
+      };
+      [2] = {
+         ["lastRotSpeed"] = 0;
+         ["invertAxis"] = false;
+         ["transMax"] = 1;
+         ["invertMouseAxis"] = false;
+         ["lastTransSpeed"] = 0;
+         ["node"] = 43436;
+         ["curTrans"] = {
+            [1] = -0.0016853901324794;
+            [2] = 0.52212399244308;
+            [3] = 1.4082700014114;
+         };
+         ["speedFactor"] = 1;
+         ["isDirty"] = false;
+         ["dependentParts"] = {
+            ["table: 0F0C09E8"] = {
+               ["referenceDistance"] = 0;
+               ["referenceFrame"] = 43399;
+               ["referencePoint"] = 43439;
+               ["dependentParts"] = {};
+               ["localReferenceDistance"] = 0.07015283818634;
+               ["useLocalOffset"] = false;
+               ["playSound"] = true;
+               ["inputAttacherJoint"] = false;
+               ["invertZ"] = false;
+               ["dependentPartNodes"] = {
+                  [1] = 43464;
+               };
+               ["localReferencePoint"] = {
+                  [1] = 0;
+                  [2] = 0.023055199533701;
+                  [3] = 0.066256158053875;
+               };
+               ["isDirty"] = false;
+               ["translatingParts"] = {};
+               ["node"] = 43463;
+               ["scaleZ"] = false;
+            };
+         };
+         ["rotationAxis"] = 1;
+         ["isActive"] = true;
+         ["curRot"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["translationAxis"] = 3;
+         ["dependentPartNodes"] = {
+            [1] = 43463;
+         };
+         ["transSendNumBits"] = 8;
+         ["inputAttacherJoint"] = false;
+         ["transMin"] = 0;
+         ["rotSendNumBits"] = 8;
+      };
+   };
+   ["driveGroundParticleSystems"] = {};
+   ["turnTargetMoveBack"] = 7;
+   ["motorStopSoundPitchOffset"] = 0.91999995708466;
+   ["isRegistered"] = true;
+   ["speedDisplayScale"] = 1;
+   ["axisForwardIsAnalog"] = false;
+   ["stopMotorOnLeave"] = true;
+   ["showWaterWarning"] = false;
+   ["decelerationSpeed"] = 0.00060000002384186;
+   ["compressionSoundEnabled"] = false;
+   ["motorSoundRunPitchMax"] = 1.0499999523163;
+   ["getIsAITractorAllowed"] = "function: 098B52F8, defined in (827-835)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+   ["trafficCollisionIgnoreList"] = {
+      [43399] = true;
+   };
+   ["motorSoundPitchMax"] = 1.25;
+   ["nextDirtyFlag"] = 16;
+   ["rotatedTime"] = 0;
+   ["stopAITractor"] = "function: 158F15B8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["hudBarHeight"] = 0.023;
+   ["reverseDriveSoundEnabled"] = false;
+   ["turnStage"] = 0;
+   ["sizeLength"] = 4.5;
+   ["onTrafficCollisionTrigger"] = "function: 098B5238, defined in (703-722)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+   ["turnStage2Timeout"] = 20000;
+   ["typeDesc"] = "TypeDescription";
+   ["lastRoundPerMinute"] = 0;
+   ["clientHonkSound"] = 43574;
+   ["isEntered"] = true;
+   ["motorStopSoundVolume"] = 0;
+   ["ikChains"] = {};
+   ["motorSoundPitchOffset"] = 0.89999997615814;
+   ["skinnedNodes"] = {};
+   ["nodesToMovingTools"] = {
+      [43422] = {}; -- __unnamed__["movingTools"][1] (self reference)
+      [43436] = {}; -- __unnamed__["movingTools"][2] (self reference)
+   };
+   ["motor"] = {
+      ["backwardTorqueCurve"] = {
+         ["keyframes"] = {
+            [1] = {
+               ["time"] = 600;
+               ["v"] = 1.5;
+            };
+            [2] = {
+               ["time"] = 720;
+               ["v"] = 0;
+            };
+         };
+         ["currentTime"] = 0;
+         ["interpolator"] = "function: 09721578, defined in (5-7)D:/code/lsim2013/build/finalbin/dataS/scripts/AnimCurve.lua";
+         ["maxTime"] = 720;
+         ["interpolatorDegree"] = 1;
+      };
+      ["lastMotorRpm"] = 0;
+      ["minRpm"] = 100;
+      ["speedLevel"] = 0;
+      ["lowBrakeForceSpeedLimit"] = 0.00027777777777778;
+      ["maxRpm"] = {
+         [1] = 650;
+         [2] = 1050;
+         [3] = 2050;
+         [4] = 550;
+      };
+      ["compensateWheelRadius"] = true;
+      ["lowBrakeForceScale"] = 0.40000000596046;
+      ["rpmFadeOutRange"] = 20;
+      ["accelerations"] = {
+         [1] = 1;
+         [2] = 1;
+         [3] = 1;
+         [4] = 1;
+      };
+      ["nonClampedMotorRpm"] = 0;
+      ["maxTorques"] = {
+         [1] = -3;
+         [2] = -3;
+         [3] = -3;
+         [4] = -3;
+      };
+      ["differentialRatio"] = 1;
+      ["brakeForce"] = 12;
+      ["backwardGearRatio"] = 17;
+      ["rpmLimit"] = 1.#INF;
+      ["forwardTorqueCurve"] = {
+         ["keyframes"] = {
+            [1] = {
+               ["time"] = 2050;
+               ["v"] = 2.1899998784065;
+            };
+         };
+         ["currentTime"] = 0;
+         ["interpolator"] = "function: 09721578, defined in (5-7)D:/code/lsim2013/build/finalbin/dataS/scripts/AnimCurve.lua";
+         ["maxTime"] = 2050;
+         ["interpolatorDegree"] = 1;
+      };
+      ["forwardGearRatios"] = {
+         [1] = 17.5;
+         [2] = 17.5;
+         [3] = 17.5;
+         [4] = 17.5;
+      };
+      ["transmissionEfficiency"] = 1;
+   };
+   ["characterSpineNodeMinRot"] = 0.17453292519943;
+   ["motorStartSoundPitchOffset"] = 1;
+   ["firstTimeRun"] = true;
+   ["motorSound3DInnerRadius"] = 20;
+   ["aiTurnWidthScale"] = 0.9;
+   ["attachedImplements"] = {};
+   ["fuelFillLitersPerSecond"] = 10;
+   ["lights"] = {
+      [1] = {
+         ["useFakeLightIfNotReal"] = false;
+         ["decoration"] = 43452;
+         ["realLight"] = 43414;
+         ["fakeLight"] = 43450;
+         ["lightType"] = 0;
+      };
+   };
+   ["hudBarGoldOverlay"] = {
+      ["visible"] = true;
+      ["r"] = 1;
+      ["a"] = 1;
+      ["b"] = 1;
+      ["g"] = 1;
+      ["width"] = 0.21;
+      ["y"] = 0.1009514;
+      ["x"] = 0.777871;
+      ["rotationCenterY"] = 0;
+      ["rotationCenterX"] = 0;
+      ["height"] = 0.023;
+      ["rotation"] = 0;
+      ["invertX"] = false;
+      ["overlayId"] = 43571;
+   };
+   ["aiTractorLookAheadDistance"] = 10;
+   ["motorSoundVolume"] = 1;
+   ["exitPoint"] = 43413;
+   ["compressedAirSound"] = 43557;
+   ["cylinderedDirtyFlag"] = 8;
+   ["isMotorStarted"] = false;
+   ["requiredDriveMode"] = 1;
+   ["setLights"] = "function: 158F1ED8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["isBroken"] = false;
+   ["lastSoundSpeed"] = 0;
+   ["numLightTypes"] = 1;
+   ["disableCharacterOnLeave"] = true;
+   ["steerableGroundFlag"] = 4;
+   ["maxRotTime"] = 0.42857142857143;
+   ["motorSound3D"] = 43554;
+   ["turnEndBackDistance"] = 7.6;
+   ["componentsVisibility"] = true;
+   ["checkSpeedLimit"] = true;
+   ["vehicleDirtyFlag"] = 1;
+   ["canStartAITractor"] = "function: 098B5338, defined in (813-825)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+   ["motorSoundRunPitchScale"] = 0.032999999821186;
+   ["turnTimer"] = 8000;
+   ["setMovingToolDirty"] = "function: 158F5AF8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["componentJoints"] = {};
+   ["deactivateLightsOnLeave"] = true;
+   ["sizeWidth"] = 2.7999999523163;
+   ["schemaOverlay"] = {
+      ["overlay"] = {
+         ["visible"] = true;
+         ["r"] = 1;
+         ["a"] = 1;
+         ["b"] = 1;
+         ["g"] = 1;
+         ["width"] = 0.06;
+         ["y"] = 0;
+         ["x"] = 0;
+         ["rotationCenterY"] = 0;
+         ["rotationCenterX"] = 0;
+         ["height"] = 0.075;
+         ["rotation"] = 0;
+         ["invertX"] = false;
+         ["overlayId"] = 43548;
+      };
+      ["baseX"] = 0.5;
+      ["overlaySelected"] = {
+         ["visible"] = true;
+         ["r"] = 1;
+         ["a"] = 1;
+         ["b"] = 1;
+         ["g"] = 1;
+         ["width"] = 0.06;
+         ["y"] = 0;
+         ["x"] = 0;
+         ["rotationCenterY"] = 0;
+         ["rotationCenterX"] = 0;
+         ["height"] = 0.075;
+         ["rotation"] = 0;
+         ["invertX"] = false;
+         ["overlayId"] = 43549;
+      };
+      ["y"] = 0;
+      ["x"] = 0.5;
+      ["attacherJoints"] = {
+         [1] = {
+            ["y"] = 0;
+            ["x"] = 1;
+            ["rotation"] = 0;
+            ["invertX"] = false;
+         };
+         [2] = {
+            ["y"] = 0;
+            ["x"] = 0;
+            ["rotation"] = 0;
+            ["invertX"] = true;
+         };
+         [3] = {
+            ["y"] = 0;
+            ["x"] = 1;
+            ["rotation"] = 0;
+            ["invertX"] = false;
+         };
+         [4] = {
+            ["y"] = 0;
+            ["x"] = 1;
+            ["rotation"] = 0;
+            ["invertX"] = false;
+         };
+      };
+      ["baseY"] = 0;
+      ["invisibleBorderRight"] = 0.05;
+      ["invisibleBorderLeft"] = 0.05;
+   };
+   ["configFileName"] = "data/vehicles/steerable/same/sameArgon3-75.xml";
+   ["motorStartSoundVolume"] = 0.89999997615814;
+   ["honkPlaying"] = false;
+   ["onLeave"] = "function: 158F1FD8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["numLightsStates"] = 1;
+   ["isClient"] = true;
+   ["specializations"] = {
+      [1] = {
+         ["onLeave"] = "function: 098B1258, defined in (591-593)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["mouseEvent"] = "function: 098B12B8, defined in (335-336)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["writeUpdateStream"] = "function: 098B1298, defined in (298-308)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["stopMotor"] = "function: 098B1378, defined in (528-552)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["update"] = "function: 098B1318, defined in (341-456)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["setFuelFillLevel"] = "function: 098B1438, defined in (595-597)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["loadMotor"] = "function: 098B1198, defined in (159-229)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["prerequisitesPresent"] = "function: 098B0FD8, defined in (15-17)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["developmentReloadFromXML"] = "function: 098B1498, defined in (653-655)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["delete"] = "function: 098B1238, defined in (231-267)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["writeStream"] = "function: 098B10F8, defined in (283-287)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["readUpdateStream"] = "function: 098B1218, defined in (289-296)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["getSaveAttributesAndNodes"] = "function: 098B12D8, defined in (330-333)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["addFuelFillTrigger"] = "function: 098B12F8, defined in (628-633)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["updateTick"] = "function: 098B1338, defined in (458-489)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["loadFromAttributesAndNodes"] = "function: 098B1278, defined in (310-328)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["keyEvent"] = "function: 098B11B8, defined in (338-339)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["stopSounds"] = "function: 098B13F8, defined in (554-589)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["startMotor"] = "function: 098B1398, defined in (495-526)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["draw"] = "function: 098B1358, defined in (492-493)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["removeFuelFillTrigger"] = "function: 098B1418, defined in (635-650)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["readStream"] = "function: 098B11F8, defined in (269-281)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["load"] = "function: 098B11D8, defined in (19-157)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+         ["setIsFuelFilling"] = "function: 098B13D8, defined in (599-626)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+      };
+      [2] = {
+         ["calculateRealAcceleration"] = "function: 098B1E98, defined in (546-577)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["onEnter"] = "function: 098B1F18, defined in (903-918)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["mouseEvent"] = "function: 098B1C78, defined in (255-257)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["writeUpdateStream"] = "function: 098B1E18, defined in (241-253)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["update"] = "function: 098B1E58, defined in (262-489)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["setLightsTypesMask"] = "function: 098B1FF8, defined in (997-999)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["getRpmLimit"] = "function: 098B1F78, defined in (990-995)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["prerequisitesPresent"] = "function: 098B1B38, defined in (15-17)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["updateVehiclePhysics"] = "function: 098B1ED8, defined in (579-652)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["postLoad"] = "function: 098B1E78, defined in (170-174)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["delete"] = "function: 098B1DB8, defined in (176-205)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["readUpdateStream"] = "function: 098B1F58, defined in (221-239)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["draw"] = "function: 098B1EF8, defined in (654-901)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["developmentReloadFromXML"] = "function: 098B2198, defined in (1021-1023)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["updateTick"] = "function: 098B1D38, defined in (491-544)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["setNextLightsState"] = "function: 098B1DF8, defined in (1001-1019)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["keyEvent"] = "function: 098B2018, defined in (259-260)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["setSpeedLevel"] = "function: 098B1F98, defined in (985-988)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["drawGrainLevel"] = "function: 098B1FB8, defined in (961-983)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["onLeave"] = "function: 098B1F38, defined in (920-959)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["writeStream"] = "function: 098B1E38, defined in (215-219)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["readStream"] = "function: 098B1D98, defined in (207-213)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["load"] = "function: 098B1D18, defined in (19-107)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+         ["loadSettingsFromXML"] = "function: 098B1D58, defined in (109-168)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Steerable.lua";
+      };
+      [3] = {
+         ["loadDependentParts"] = "function: 097FD2C8, defined in (385-399)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["updateComponentJoints"] = "function: 09722138, defined in (799-818)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["mouseEvent"] = "function: 08384960, defined in (526-527)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["writeUpdateStream"] = "function: 097FE0C8, defined in (360-383)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["writeStream"] = "function: 098B01B8, defined in (308-318)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["setMovingToolDirty"] = "function: 0837F760, defined in (689-694)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["setDirty"] = "function: 0837E480, defined in (696-724)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["updateMovingPart"] = "function: 0837D3E0, defined in (726-797)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["prerequisitesPresent"] = "function: 098B0258, defined in (12-15)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["onDeactivateSounds"] = "function: 084916B0, defined in (898-903)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["onDeactivate"] = "function: 09711850, defined in (894-896)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["onAttach"] = "function: 0971FE58, defined in (842-884)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["delete"] = "function: 098B0218, defined in (275-280)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["onLeave"] = "function: 09712C70, defined in (886-892)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["readUpdateStream"] = "function: 097FEDE8, defined in (320-358)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["loadAttacherJoints"] = "function: 097FAE88, defined in (427-444)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["loadComponentJoints"] = "function: 097FC088, defined in (401-425)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["updateTick"] = "function: 083815E0, defined in (683-684)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["draw"] = "function: 08380620, defined in (686-687)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["keyEvent"] = "function: 08383B60, defined in (529-530)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["updateCylinderedInitial"] = "function: 09720FB8, defined in (820-840)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["update"] = "function: 083828C0, defined in (532-681)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["getSaveAttributesAndNodes"] = "function: 097F82A8, defined in (501-524)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["loadFromAttributesAndNodes"] = "function: 097F92C8, defined in (470-499)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["readStream"] = "function: 098B0238, defined in (282-306)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["load"] = "function: 098B00B8, defined in (17-273)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+         ["loadTranslatingParts"] = "function: 097FA008, defined in (446-468)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Cylindered.lua";
+      };
+      [4] = {
+         ["delete"] = "function: 098B3F78, defined in (27-28)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Hirable.lua";
+         ["mouseEvent"] = "function: 098B3E78, defined in (30-31)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Hirable.lua";
+         ["numHirablesHired"] = 0;
+         ["update"] = "function: 098B4018, defined in (36-48)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Hirable.lua";
+         ["keyEvent"] = "function: 098B3FD8, defined in (33-34)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Hirable.lua";
+         ["dismiss"] = "function: 098B4038, defined in (67-87)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Hirable.lua";
+         ["hire"] = "function: 098B3F18, defined in (53-65)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Hirable.lua";
+         ["prerequisitesPresent"] = "function: 098B3F38, defined in (14-16)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Hirable.lua";
+         ["load"] = "function: 098B3F98, defined in (18-25)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Hirable.lua";
+         ["draw"] = "function: 098B41D8, defined in (50-51)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Hirable.lua";
+      };
+      [5] = {
+         ["canStartAITractor"] = "function: 098B5338, defined in (813-825)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["onEnter"] = "function: 098B5158, defined in (268-269)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["mouseEvent"] = "function: 098B5018, defined in (110-111)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["onLeave"] = "function: 098B5138, defined in (271-272)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["update"] = "function: 098B5058, defined in (116-135)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["setAIImplementsMoveDown"] = "function: 098B52D8, defined in (779-793)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["addCollisionTrigger"] = "function: 098B51B8, defined in (656-668)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["getIsAITractorAllowed"] = "function: 098B52F8, defined in (827-835)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["detachImplement"] = "function: 098B51D8, defined in (694-701)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["stopAITractor"] = "function: 098B50D8, defined in (228-266)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["aiRotateLeft"] = "function: 098B52B8, defined in (804-811)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["prerequisitesPresent"] = "function: 098B4D18, defined in (17-19)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["aiRotateRight"] = "function: 098B5298, defined in (795-802)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["invertsMarkerOnTurn"] = "function: 098B5258, defined in (767-777)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["removeCollisionTrigger"] = "function: 098B5118, defined in (670-682)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["delete"] = "function: 098B4FF8, defined in (92-95)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["writeStream"] = "function: 098B5038, defined in (106-108)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["updateToolsInfo"] = "function: 098B5218, defined in (724-755)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["draw"] = "function: 098B5098, defined in (157-167)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["attachImplement"] = "function: 098B51F8, defined in (685-692)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["updateTick"] = "function: 098B50B8, defined in (137-155)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["onTrafficCollisionTrigger"] = "function: 098B5238, defined in (703-722)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["startAITractor"] = "function: 098B50F8, defined in (169-226)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["switchToDirection"] = "function: 098B5178, defined in (650-654)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["updateAIMovement"] = "function: 098B5198, defined in (274-648)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["getAIArea"] = "function: 098B5318, defined in (837-873)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["updateInvertLeftRight"] = "function: 098B5278, defined in (757-765)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["readStream"] = "function: 098B4FD8, defined in (97-104)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["load"] = "function: 098B4F98, defined in (21-90)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+         ["keyEvent"] = "function: 098B5078, defined in (113-114)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/AITractor.lua";
+      };
+      [6] = {
+         ["keyEvent"] = "function: 097FD6C8, defined in (26-27)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/BunkerSiloCompacter.lua";
+         ["delete"] = "function: 097FD2E8, defined in (20-21)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/BunkerSiloCompacter.lua";
+         ["mouseEvent"] = "function: 097FD308, defined in (23-24)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/BunkerSiloCompacter.lua";
+         ["draw"] = "function: 097FD748, defined in (32-33)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/BunkerSiloCompacter.lua";
+         ["prerequisitesPresent"] = "function: 097FCFC8, defined in (11-13)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/BunkerSiloCompacter.lua";
+         ["load"] = "function: 097FCFE8, defined in (15-18)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/BunkerSiloCompacter.lua";
+         ["update"] = "function: 097FD728, defined in (29-30)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/BunkerSiloCompacter.lua";
+      };
+      [7] = {
+         ["delete"] = "function: 098E4D90, defined in (41-46)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["mouseEvent"] = "function: 098E4DB0, defined in (54-55)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["draw"] = "function: 098E4D10, defined in (80-81)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["writeStream"] = "function: 098E4D50, defined in (51-52)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["playHonk"] = "function: 098E4C70, defined in (99-119)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["keyEvent"] = "function: 098E4D30, defined in (57-58)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["update"] = "function: 098E4D70, defined in (60-75)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["onLeave"] = "function: 098E4CB0, defined in (83-89)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["updateTick"] = "function: 098E4CF0, defined in (77-78)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["onDetach"] = "function: 098E4CD0, defined in (91-97)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["readStream"] = "function: 098E4DD0, defined in (48-49)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["load"] = "function: 098E4E10, defined in (17-39)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+         ["prerequisitesPresent"] = "function: 098E5010, defined in (13-15)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Honk.lua";
+      };
+      [8] = {
+         ["onLeave"] = "function: 0A9B25D8, defined in (109-127)C:/Users/Rafal/Documents/My Games/FarmingSimulator2013/mods-fw/Gauges/app/model/manualIgnition.lua";
+         ["mouseEvent"] = "function: 0A9B2578, defined in (42-43)C:/Users/Rafal/Documents/My Games/FarmingSimulator2013/mods-fw/Gauges/app/model/manualIgnition.lua";
+         ["draw"] = "function: 0A9B2618, defined in (143-144)C:/Users/Rafal/Documents/My Games/FarmingSimulator2013/mods-fw/Gauges/app/model/manualIgnition.lua";
+         ["update"] = "function: 0A9B25B8, defined in (48-107)C:/Users/Rafal/Documents/My Games/FarmingSimulator2013/mods-fw/Gauges/app/model/manualIgnition.lua";
+         ["keyEvent"] = "function: 0A9B2598, defined in (45-46)C:/Users/Rafal/Documents/My Games/FarmingSimulator2013/mods-fw/Gauges/app/model/manualIgnition.lua";
+         ["delete"] = "function: 0A9B2558, defined in (39-40)C:/Users/Rafal/Documents/My Games/FarmingSimulator2013/mods-fw/Gauges/app/model/manualIgnition.lua";
+         ["prerequisitesPresent"] = "function: 0A9B2518, defined in (14-16)C:/Users/Rafal/Documents/My Games/FarmingSimulator2013/mods-fw/Gauges/app/model/manualIgnition.lua";
+         ["load"] = "function: 0A9B2538, defined in (18-37)C:/Users/Rafal/Documents/My Games/FarmingSimulator2013/mods-fw/Gauges/app/model/manualIgnition.lua";
+         ["onEnter"] = "function: 0A9B25F8, defined in (129-141)C:/Users/Rafal/Documents/My Games/FarmingSimulator2013/mods-fw/Gauges/app/model/manualIgnition.lua";
+      };
+      [9] = {
+         ["super"] = {
+            ["super"] = {};
+         };
+      };
+      [10] = {
+         ["super"] = {
+            ["super"] = {};
+         };
+      };
+   };
+   ["maxNumRealLights"] = 2;
+   ["time"] = 470.28770828247;
+   ["isVehicleSaved"] = true;
+   ["attachSoundPitchOffset"] = 1;
+   ["steeringEnabled"] = false;
+   ["characterSpineNodeAccDeadZone"] = 2e-007;
+   ["compressedAirSoundEnabled"] = false;
+   ["characterSpineNodeMaxAcc"] = 1e-006;
+   ["lastSpeedReal"] = 1.7766008445328e-006;
+   ["realLightsActive"] = false;
+   ["lastAcceleration"] = 0;
+   ["components"] = {
+      [1] = {
+         ["targetTranslation"] = {
+            [1] = 0;
+            [2] = 125;
+            [3] = 0;
+         };
+         ["targetRotation"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+            [4] = 1;
+         };
+         ["originalTranslation"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["originalRotation"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["solverIterationCount"] = 10;
+         ["centerOfMass"] = {
+            [1] = 0;
+            [2] = 0.05;
+            [3] = 0;
+         };
+         ["curRotation"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+            [4] = 1;
+         };
+         ["sentRotation"] = {
+            [1] = -3.1247255802155;
+            [2] = -1.1488936252135e-005;
+            [3] = 3.1404702663422;
+         };
+         ["lastTranslation"] = {
+            [1] = 0;
+            [2] = 125;
+            [3] = 0;
+         };
+         ["sentTranslation"] = {
+            [1] = -48;
+            [2] = 124.99948883057;
+            [3] = -51.999935150146;
+         };
+         ["curTranslation"] = {
+            [1] = 0;
+            [2] = 125;
+            [3] = 0;
+         };
+         ["node"] = 43399;
+         ["lastRotation"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+            [4] = 1;
+         };
+      };
+   };
+   ["motorSound3DVolume"] = 1;
+   ["rpmGaugeSpecializationLoaded"] = true;
+   ["hire"] = "function: 158F47F8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["speedRotScale"] = 80;
+   ["isAITractorActivated"] = false;
+   ["positionIsDirty"] = false;
+   ["dismiss"] = "function: 158F46F8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["camIndex"] = 1;
+   ["vehicleNodes"] = {
+      [43399] = 43399;
+   };
+   ["turnEndDistance"] = 4;
+   ["controllerName"] = "secherezada";
+   ["steering"] = 43446;
+   ["waitForTurnTimeout"] = 1600;
+   ["speedRotScaleOffset"] = 0.7;
+   ["nicknameRenderNode"] = 43447;
+   ["motorStartDuration"] = 2500;
+   ["compressedAirSoundPitchOffset"] = 1;
+   ["motorSoundEnabled"] = false;
+   ["gearboxSpecializationLoaded"] = true;
+   ["playMotorRunSound"] = false;
+   ["characterSpineNodeMaxRot"] = -0.17453292519943;
+   ["axisForward"] = 0;
+   ["setFuelFillLevel"] = "function: 19E11FC0, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["owner"] = {
+      ["ackPingPacketSent"] = false;
+      ["localConnection"] = {
+         ["ackPingPacketSent"] = false;
+         ["localConnection"] = {}; -- __unnamed__["owner"] (self reference)
+         ["hasPacketsToAck"] = false;
+         ["ackMask"] = 0;
+         ["lastSeqSent"] = 0;
+         ["isReadyForEvents"] = true;
+         ["lastSeqReceived"] = 0;
+         ["highestAckedSeq"] = 0;
+         ["objectsToDeleteAfterCreation"] = {};
+         ["objectsInfo"] = {};
+         ["isConnected"] = true;
+         ["streamId"] = 0;
+         ["dataSent"] = 0;
+         ["isReadyForObjects"] = true;
+         ["isServer"] = true;
+      };
+      ["hasPacketsToAck"] = false;
+      ["ackMask"] = 0;
+      ["lastSeqSent"] = 0;
+      ["isReadyForEvents"] = true;
+      ["lastSeqReceived"] = 0;
+      ["highestAckedSeq"] = 0;
+      ["objectsToDeleteAfterCreation"] = {};
+      ["objectsInfo"] = {};
+      ["isConnected"] = true;
+      ["streamId"] = 0;
+      ["dataSent"] = 0;
+      ["isReadyForObjects"] = true;
+      ["isServer"] = false;
+   };
+   ["sideWatchDirOffset"] = -8;
+   ["wheels"] = {
+      [1] = {
+         ["rotMax"] = 0.5235987755983;
+         ["axleSpeed"] = 0;
+         ["hasHandbrake"] = true;
+         ["xmlIndex"] = 0;
+         ["showSteeringAngle"] = true;
+         ["longitudalExtremumValue"] = 0.02;
+         ["lateralStiffness"] = 2;
+         ["steeringAxleRotMin"] = -0.34906585039887;
+         ["rotMin"] = -0.5235987755983;
+         ["repr"] = 43400;
+         ["wheelShape"] = 0;
+         ["lateralExtremumValue"] = 0.04;
+         ["longitudalExtremumSlip"] = 0.9;
+         ["hasGroundContact"] = false;
+         ["node"] = 43399;
+         ["longitudalStiffness"] = 0.89999997615814;
+         ["netInfo"] = {
+            ["y"] = 0.71692396700382;
+            ["x"] = -0.54368698596954;
+            ["xDrive"] = 0;
+            ["yRange"] = 0.23000000417233;
+            ["yMin"] = 0.4869239628315;
+            ["z"] = 0.98090994358063;
+         };
+         ["radius"] = 0.5;
+         ["rotSpeed"] = 1.221730476396;
+         ["steeringAxleScale"] = 0;
+         ["isSynchronized"] = true;
+         ["steeringAngle"] = 0;
+         ["driveNode"] = 43401;
+         ["longitudalAsymptoteSlip"] = 2;
+         ["driveMode"] = 2;
+         ["lateralAsymptoteValue"] = 0.03;
+         ["lateralAsymptoteSlip"] = 6;
+         ["deltaY"] = 0.20000000298023;
+         ["steeringAxleRotMax"] = 0.34906585039887;
+         ["lateralExtremumSlip"] = 0.02;
+         ["longitudalAsymptoteValue"] = 0.01;
+         ["mass"] = 0.1339999884367;
+      };
+      [2] = {
+         ["rotMax"] = 0.5235987755983;
+         ["axleSpeed"] = 0;
+         ["hasHandbrake"] = true;
+         ["xmlIndex"] = 1;
+         ["showSteeringAngle"] = true;
+         ["longitudalExtremumValue"] = 0.02;
+         ["lateralStiffness"] = 2;
+         ["steeringAxleRotMin"] = -0.34906585039887;
+         ["rotMin"] = -0.5235987755983;
+         ["repr"] = 43403;
+         ["wheelShape"] = 1;
+         ["lateralExtremumValue"] = 0.04;
+         ["longitudalExtremumSlip"] = 0.9;
+         ["hasGroundContact"] = false;
+         ["node"] = 43399;
+         ["longitudalStiffness"] = 0.89999997615814;
+         ["netInfo"] = {
+            ["y"] = 0.71692396700382;
+            ["x"] = 0.5440000295639;
+            ["xDrive"] = 0;
+            ["yRange"] = 0.23000000417233;
+            ["yMin"] = 0.4869239628315;
+            ["z"] = 0.98090994358063;
+         };
+         ["radius"] = 0.5;
+         ["rotSpeed"] = 1.221730476396;
+         ["steeringAxleScale"] = 0;
+         ["isSynchronized"] = true;
+         ["steeringAngle"] = 0;
+         ["driveNode"] = 43404;
+         ["longitudalAsymptoteSlip"] = 2;
+         ["driveMode"] = 2;
+         ["lateralAsymptoteValue"] = 0.03;
+         ["lateralAsymptoteSlip"] = 6;
+         ["deltaY"] = 0.20000000298023;
+         ["steeringAxleRotMax"] = 0.34906585039887;
+         ["lateralExtremumSlip"] = 0.02;
+         ["longitudalAsymptoteValue"] = 0.01;
+         ["mass"] = 0.1339999884367;
+      };
+      [3] = {
+         ["rotMax"] = 0;
+         ["axleSpeed"] = 0;
+         ["hasHandbrake"] = true;
+         ["xmlIndex"] = 2;
+         ["showSteeringAngle"] = true;
+         ["longitudalExtremumValue"] = 0.02;
+         ["lateralStiffness"] = 2;
+         ["steeringAxleRotMin"] = -0.34906585039887;
+         ["rotMin"] = 0;
+         ["repr"] = 43406;
+         ["wheelShape"] = 2;
+         ["lateralExtremumValue"] = 0.04;
+         ["longitudalExtremumSlip"] = 0.9;
+         ["hasGroundContact"] = false;
+         ["node"] = 43399;
+         ["longitudalStiffness"] = 0.89999997615814;
+         ["netInfo"] = {
+            ["y"] = 0.81382504850626;
+            ["x"] = 0.67162400484085;
+            ["xDrive"] = 0;
+            ["yRange"] = 0.14000000059605;
+            ["yMin"] = 0.67382504791021;
+            ["z"] = -0.93486601114273;
+         };
+         ["radius"] = 0.71499997377396;
+         ["rotSpeed"] = 0;
+         ["steeringAxleScale"] = 0;
+         ["isSynchronized"] = true;
+         ["steeringAngle"] = 0;
+         ["driveNode"] = 43406;
+         ["longitudalAsymptoteSlip"] = 2;
+         ["driveMode"] = 1;
+         ["lateralAsymptoteValue"] = 0.03;
+         ["lateralAsymptoteSlip"] = 6;
+         ["deltaY"] = 0.10000000149012;
+         ["steeringAxleRotMax"] = 0.34906585039887;
+         ["lateralExtremumSlip"] = 0.02;
+         ["longitudalAsymptoteValue"] = 0.01;
+         ["mass"] = 0.21999999880791;
+      };
+      [4] = {
+         ["rotMax"] = 0;
+         ["axleSpeed"] = 0;
+         ["hasHandbrake"] = true;
+         ["xmlIndex"] = 3;
+         ["showSteeringAngle"] = true;
+         ["longitudalExtremumValue"] = 0.02;
+         ["lateralStiffness"] = 2;
+         ["steeringAxleRotMin"] = -0.34906585039887;
+         ["rotMin"] = 0;
+         ["repr"] = 43407;
+         ["wheelShape"] = 3;
+         ["lateralExtremumValue"] = 0.04;
+         ["longitudalExtremumSlip"] = 0.9;
+         ["hasGroundContact"] = false;
+         ["node"] = 43399;
+         ["longitudalStiffness"] = 0.89999997615814;
+         ["netInfo"] = {
+            ["y"] = 0.81575898081064;
+            ["x"] = -0.67634695768356;
+            ["xDrive"] = 0;
+            ["yRange"] = 0.14000000059605;
+            ["yMin"] = 0.6757589802146;
+            ["z"] = -0.9410799741745;
+         };
+         ["radius"] = 0.71499997377396;
+         ["rotSpeed"] = 0;
+         ["steeringAxleScale"] = 0;
+         ["isSynchronized"] = true;
+         ["steeringAngle"] = 0;
+         ["driveNode"] = 43407;
+         ["longitudalAsymptoteSlip"] = 2;
+         ["driveMode"] = 1;
+         ["lateralAsymptoteValue"] = 0.03;
+         ["lateralAsymptoteSlip"] = 6;
+         ["deltaY"] = 0.10000000149012;
+         ["steeringAxleRotMax"] = 0.34906585039887;
+         ["lateralExtremumSlip"] = 0.02;
+         ["longitudalAsymptoteValue"] = 0.01;
+         ["mass"] = 0.21999999880791;
+      };
+   };
+   ["movingParts"] = {
+      [1] = {}; -- __unnamed__["movingTools"][1]["dependentParts"]["table: 0F0C07E0"] (self reference)
+      [2] = {}; -- __unnamed__["movingTools"][1]["dependentParts"]["table: 0F0C07E0"]["dependentParts"]["table: 0F0C0920"] (self reference)
+      [3] = {}; -- __unnamed__["movingTools"][2]["dependentParts"]["table: 0F0C09E8"] (self reference)
+      [4] = {}; -- __unnamed__["activeDirtyMovingParts"][1] (self reference)
+      [5] = {}; -- __unnamed__["activeDirtyMovingParts"][2] (self reference)
+      [6] = {}; -- __unnamed__["movingTools"][1]["dependentParts"]["table: 0F0C0A10"] (self reference)
+   };
+   ["lastMoveTime"] = 16.687393188477;
+   ["lastSpeed"] = 3.3115373043176e-006;
+   ["hudFramesOverlay"] = {
+      ["visible"] = true;
+      ["r"] = 1;
+      ["a"] = 1;
+      ["b"] = 1;
+      ["g"] = 1;
+      ["width"] = 0.2371;
+      ["y"] = 0.01238;
+      ["x"] = 0.7543;
+      ["rotationCenterY"] = 0;
+      ["rotationCenterX"] = 0;
+      ["height"] = 0.1581;
+      ["rotation"] = 0;
+      ["invertX"] = false;
+      ["overlayId"] = 43569;
+   };
+   ["isControlled"] = true;
+   ["fuelFillLevel"] = 70;
+   ["motorStopSoundVolume2"] = 1;
+   ["ikChainsById"] = {};
+   ["drawGrainLevel"] = "function: 158F1DD8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["hudBackgroundOverlay"] = {
+      ["visible"] = true;
+      ["r"] = 1;
+      ["a"] = 1;
+      ["b"] = 1;
+      ["g"] = 1;
+      ["width"] = 0.2371;
+      ["y"] = 0.01238;
+      ["x"] = 0.7543;
+      ["rotationCenterY"] = 0;
+      ["rotationCenterX"] = 0;
+      ["height"] = 0.1581;
+      ["rotation"] = 0;
+      ["invertX"] = false;
+      ["overlayId"] = 43568;
+   };
+   ["hasWheelGroundContact"] = false;
+   ["ignitionKey"] = false;
+   ["lastSpeedAcceleration"] = 0;
+   ["enterReferenceNode"] = 43399;
+   ["hudBarOffsetX"] = 0.023571;
+   ["steeringAnimationNodes"] = {};
+   ["lastWheelRpm"] = 0;
+   ["motorSoundRunPitchOffset"] = 0.5;
+   ["motorizedFillActivatable"] = {
+      ["motorized"] = {}; -- __unnamed__ (self reference)
+      ["activateText"] = "unknown";
+   };
+   ["typeName"] = "tractor_cylindered";
+   ["setIsFuelFilling"] = "function: 19E06EA0, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["characterCameraMinDistance"] = 1.5;
+   ["honkSoundVolume"] = 1;
+   ["honkSoundId"] = 43573;
+   ["maxRotatedTimeSpeed"] = 0.001;
+   ["autoRotateBackSpeed"] = 2;
+   ["hudBarRedOverlay"] = {
+      ["visible"] = true;
+      ["r"] = 1;
+      ["a"] = 1;
+      ["b"] = 1;
+      ["g"] = 1;
+      ["width"] = 0.21;
+      ["y"] = 0.1409514;
+      ["x"] = 0.777871;
+      ["rotationCenterY"] = 0;
+      ["rotationCenterX"] = 0;
+      ["height"] = 0.023;
+      ["rotation"] = 0;
+      ["invertX"] = false;
+      ["overlayId"] = 43572;
+   };
+   ["maxAccelerationSpeed"] = 0.00040000000596046;
+   ["lightsTypesMask"] = 0;
+   ["honkSoundInnerRadius"] = 35;
+   ["nicknameRenderNodeOffset"] = {
+      [1] = 0;
+      [2] = 1.5;
+      [3] = 0;
+   };
+   ["compressedAirSoundVolume"] = 1;
+   ["deactivateOnLeave"] = true;
+   ["frontMarkerDistanceScale"] = 1.1;
+   ["cuttingAreas"] = {};
+   ["bunkerSiloCompactingScale"] = 1;
+   ["widthOffset"] = 0;
+   ["isDeleted"] = false;
+   ["hudBaseHeight"] = 0.1581;
+   ["dirtyMask"] = 0;
+   ["dtSum"] = 0;
+   ["axisSide"] = 0;
+   ["aiToolsDirty"] = false;
+   ["movingDirection"] = 0;
+   ["motorSound3DRadius"] = 50;
+   ["beaconLights"] = {
+      [1] = {
+         ["node"] = 43461;
+         ["speed"] = 0.015999998897314;
+      };
+   };
+   ["updateCylinderedInitial"] = "function: 158F59F8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["setAIImplementsMoveDown"] = "function: 158F72F8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["speedDisplayDt"] = 70.287708282471;
+   ["pricePerMS"] = 0.00055555555555556;
+   ["dynamicWheelFrictionMinScale"] = 0.02;
+   ["steeringAxleAngle"] = 0;
+   ["brakeLightsVisibility"] = false;
+   ["aiToolExtraTargetMoveBack"] = 0;
+   ["exhaustParticleSystems"] = {
+      [1] = {
+         ["geometry"] = 43565;
+         ["shape"] = 43566;
+      };
+      ["isEmitting"] = false;
+   };
+   ["axisSideIsAnalog"] = false;
+   ["turnStage6Timeout"] = 3000;
+   ["removeFuelFillTrigger"] = "function: 098B1418, defined in (635-650)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+   ["backwardMaxAccelerationSpeed"] = 0.00040000000596046;
+   ["steeringSpeed"] = 6;
+   ["turnStage3Timeout"] = 20000;
+   ["cameras"] = {
+      [1] = {
+         ["smoothUpdateDt"] = 0;
+         ["disableCollisionTime"] = -1;
+         ["raycastNodes"] = {
+            [1] = 43408;
+            [2] = 43411;
+            [3] = 43412;
+         };
+         ["transY"] = -2.8421698207217e-016;
+         ["origTransX"] = 6.4671097871764e-016;
+         ["targetPosition"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["transDirX"] = 7.1856775413071e-017;
+         ["origRotY"] = 3.1415927410126;
+         ["rotateNode"] = 43408;
+         ["rotZ"] = 0;
+         ["cameraPositionNode"] = 43409;
+         ["targetLookAtPosition"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["normalZ"] = 0;
+         ["separatedFromVehicleUpdateDt"] = 0;
+         ["zoomLimitedTarget"] = -1;
+         ["rotMinX"] = -1.3999999761581;
+         ["rotX"] = -0.41887903213501;
+         ["normalX"] = 0;
+         ["transMax"] = 35;
+         ["isRotatable"] = true;
+         ["allowTranslation"] = true;
+         ["limit"] = true;
+         ["raycastDistance"] = 0;
+         ["rotMaxX"] = 1;
+         ["vehicle"] = {}; -- __unnamed__ (self reference)
+         ["transDirZ"] = 1;
+         ["transDirY"] = -3.1579664674686e-017;
+         ["transMin"] = 4;
+         ["normalY"] = 0;
+         ["zoomTarget"] = 9;
+         ["useWorldXZRotation"] = true;
+         ["limitRotXDelta"] = 0;
+         ["zoom"] = 9;
+         ["origRotX"] = -0.41887903213501;
+         ["transZ"] = 9;
+         ["transX"] = 6.4671097871764e-016;
+         ["cameraNode"] = 43409;
+         ["isActivated"] = true;
+         ["origTransZ"] = 9;
+         ["origRotZ"] = 0;
+         ["rotY"] = 3.1415927410126;
+         ["origTransY"] = -2.8421698207217e-016;
+         ["isInside"] = false;
+      };
+      [2] = {
+         ["smoothUpdateDt"] = 0;
+         ["disableCollisionTime"] = -1;
+         ["raycastNodes"] = {
+            [1] = 43410;
+         };
+         ["transY"] = 1.9140099287033;
+         ["origTransX"] = -2.8285196200789e-016;
+         ["targetPosition"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["transDirX"] = -1.3680708982882e-016;
+         ["origRotY"] = 3.1415927410126;
+         ["rotateNode"] = 43410;
+         ["rotZ"] = 0;
+         ["cameraPositionNode"] = 43410;
+         ["targetLookAtPosition"] = {
+            [1] = 0;
+            [2] = 0;
+            [3] = 0;
+         };
+         ["normalZ"] = 0;
+         ["separatedFromVehicleUpdateDt"] = 0;
+         ["zoomLimitedTarget"] = -1;
+         ["rotMinX"] = -1.1000000238419;
+         ["rotX"] = -0.13962633907795;
+         ["normalX"] = 0;
+         ["transMax"] = 0;
+         ["isRotatable"] = true;
+         ["allowTranslation"] = false;
+         ["limit"] = true;
+         ["raycastDistance"] = 0;
+         ["rotMaxX"] = 0.40000000596046;
+         ["vehicle"] = {}; -- __unnamed__ (self reference)
+         ["transDirZ"] = -0.37813679036803;
+         ["transDirY"] = 0.92574973279508;
+         ["transMin"] = 0;
+         ["normalY"] = 0;
+         ["zoomTarget"] = 2.0675241492368;
+         ["useWorldXZRotation"] = false;
+         ["limitRotXDelta"] = 0;
+         ["zoom"] = 2.0675241492368;
+         ["origRotX"] = -0.13962633907795;
+         ["transZ"] = -0.78180694580078;
+         ["transX"] = -2.8285196200789e-016;
+         ["cameraNode"] = 43410;
+         ["isActivated"] = false;
+         ["origTransZ"] = -0.78180694580078;
+         ["origRotZ"] = 0;
+         ["rotY"] = 3.1415927410126;
+         ["origTransY"] = 1.9140099287033;
+         ["isInside"] = false;
+      };
+   };
+   ["isHired"] = false;
+   ["fuelUsage"] = 0.00069999997504056;
+   ["isServer"] = true;
+   ["getRpmLimit"] = "function: 0F0C02E0, defined in (1385-1387)D:/code/lsim2013/build/finalbin/dataS/scripts/Utils.lua";
+   ["hudBarWidth"] = 0.21;
+   ["motorSoundRun"] = 43556;
+   ["motorSoundRunVolume"] = 0.5;
+   ["lastFrontMarkerDistance"] = 0;
+   ["dynamicWheelFrictionCosAngleMax"] = 0.80901699437495;
+   ["motorStartSound"] = 43551;
+   ["lastMovedDistance"] = 0;
+   ["id"] = 154;
+   ["addFuelFillTrigger"] = "function: 098B12F8, defined in (628-633)D:/code/lsim2013/build/finalbin/dataS/scripts/vehicles/specializations/Motorized.lua";
+   ["conflictCheckedInputs"] = {};
+   ["hudBarStartOffsetY"] = 0.0085714;
+   ["startAITractor"] = "function: 158F48F8, defined in (15-22)D:/code/lsim2013/build/finalbin/dataS/scripts/SpecializationUtil.lua";
+   ["hudBarGreenOverlay"] = {
+      ["visible"] = true;
+      ["r"] = 1;
+      ["a"] = 1;
+      ["b"] = 1;
+      ["g"] = 1;
+      ["width"] = 0.21;
+      ["y"] = 0.0609514;
+      ["x"] = 0.777871;
+      ["rotationCenterY"] = 0;
+      ["rotationCenterX"] = 0;
+      ["height"] = 0.023;
+      ["rotation"] = 0;
+      ["invertX"] = false;
+      ["overlayId"] = 43570;
+   };
+   ["lightsState"] = 0;
+   ["fuelCapacity"] = 70;
+   ["allowedIgnition"] = false;
+   ["characterIsSkinned"] = false;
+   ["motorStartTime"] = 2970.2877082825;
+   ["motorSound"] = 43553;
+};
+__unnamed__["nodesToMovingTools"][43422] = __unnamed__["movingTools"][1];
+__unnamed__["nodesToMovingTools"][43436] = __unnamed__["movingTools"][2];
+__unnamed__["owner"]["localConnection"]["localConnection"] = __unnamed__["owner"];
+__unnamed__["movingParts"][1] = __unnamed__["movingTools"][1]["dependentParts"]["table: 0F0C07E0"];
+__unnamed__["movingParts"][2] = __unnamed__["movingTools"][1]["dependentParts"]["table: 0F0C07E0"]["dependentParts"]["table: 0F0C0920"];
+__unnamed__["movingParts"][3] = __unnamed__["movingTools"][2]["dependentParts"]["table: 0F0C09E8"];
+__unnamed__["movingParts"][4] = __unnamed__["activeDirtyMovingParts"][1];
+__unnamed__["movingParts"][5] = __unnamed__["activeDirtyMovingParts"][2];
+__unnamed__["movingParts"][6] = __unnamed__["movingTools"][1]["dependentParts"]["table: 0F0C0A10"];
+__unnamed__["motorizedFillActivatable"]["motorized"] = __unnamed__;
+__unnamed__["cameras"][1]["vehicle"] = __unnamed__;
+__unnamed__["cameras"][2]["vehicle"] = __unnamed__;

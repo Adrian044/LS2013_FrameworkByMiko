@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="9">
+    <author>Miko | rafal@mikoweb.pl</author>
+    <version>1.5-dev</version>
+	<title>
+		<pl>Framework by Miko</pl>
+		<en>Framework by Miko</en> 
+		<de>Framework by Miko</de>
+	</title> 
+	<description> 
+		<pl>Platforma do tworzenia zaawansowanych modyfikacji | github.com/mikoweb/LS2013_FrameworkByMiko</pl>
+		<en>Platform for creating advanced modifications | github.com/mikoweb/LS2013_FrameworkByMiko</en> 
+		<de>Plattform für die Schaffung erweiterter Modifikationen | github.com/mikoweb/LS2013_FrameworkByMiko</de>
+	</description>
+	
+	<iconFilename>images/store.dds</iconFilename> 
+	<multiplayer supported="true"/>
+	
+	<extraSourceFiles>
+		<sourceFile filename="Loader.lua" />
+    </extraSourceFiles>
+
+    <l10n>
+		<text name="PS2_PAD_CROSS">
+			<pl>PS2 Button: X</pl>
+			<en>PS2 Button: X</en>
+			<de>PS2 Button: X</de>
+		</text>
+		<text name="PS2_PAD_CIRCLE">
+			<pl>PS2 Button: O</pl>
+			<en>PS2 Button: O</en>
+			<de>PS2 Button: O</de>
+		</text>	
+		<text name="PS2_PAD_SQUARE">
+			<pl>PS2 Button: []</pl>
+			<en>PS2 Button: []</en>
+			<de>PS2 Button: []</de>
+		</text>	
+		<text name="PS2_PAD_TRIANGLE">
+			<pl>PS2 Button: /\</pl>
+			<en>PS2 Button: /\</en>
+			<de>PS2 Button: /\</de>
+		</text>	
+		<text name="PS2_PAD_LEFT">
+			<pl>PS2 Button: Left</pl>
+			<en>PS2 Button: Left</en>
+			<de>PS2 Button: Left</de>
+		</text>
+		<text name="PS2_PAD_RIGHT">
+			<pl>PS2 Button: Right</pl>
+			<en>PS2 Button: Right</en>
+			<de>PS2 Button: Right</de>
+		</text>	
+		<text name="PS2_PAD_UP">
+			<pl>PS2 Button: Up</pl>
+			<en>PS2 Button: Up</en>
+			<de>PS2 Button: Up</de>
+		</text>	
+		<text name="PS2_PAD_DOWN">
+			<pl>PS2 Button: Down</pl>
+			<en>PS2 Button: Down</en>
+			<de>PS2 Button: Down</de>
+		</text>	
+		<text name="PS2_PAD_SELECT">
+			<pl>PS2 Button: Select</pl>
+			<en>PS2 Button: Select</en>
+			<de>PS2 Button: Select</de>
+		</text>	
+		<text name="PS2_PAD_START">
+			<pl>PS2 Button: Start</pl>
+			<en>PS2 Button: Start</en>
+			<de>PS2 Button: Start</de>
+		</text>
+		<text name="PS2_PAD_L1">
+			<pl>PS2 Button: L1</pl>
+			<en>PS2 Button: L1</en>
+			<de>PS2 Button: L1</de>
+		</text>	
+		<text name="PS2_PAD_R1">
+			<pl>PS2 Button: R1</pl>
+			<en>PS2 Button: R1</en>
+			<de>PS2 Button: R1</de>
+		</text>	
+		<text name="PS2_PAD_L2">
+			<pl>PS2 Button: L2</pl>
+			<en>PS2 Button: L2</en>
+			<de>PS2 Button: L2</de>
+		</text>	
+		<text name="PS2_PAD_R2">
+			<pl>PS2 Button: R2</pl>
+			<en>PS2 Button: R2</en>
+			<de>PS2 Button: R2</de>
+		</text>
+		<!--<text name="PS2_PAD_AXIS_X">
+			<pl>PS2 Axis: X</pl>
+			<en>PS2 Axis: X</en>
+			<de>PS2 Axis: X</de>
+		</text>	
+		<text name="PS2_PAD_AXIS_Y">
+			<pl>PS2 Axis: Y</pl>
+			<en>PS2 Axis: Y</en>
+			<de>PS2 Axis: Y</de>
+		</text>	
+		<text name="PS2_PAD_AXIS_RZ">
+			<pl>PS2 Axis: RZ</pl>
+			<en>PS2 Axis: RZ</en>
+			<de>PS2 Axis: RZ</de>
+		</text>	
+		<text name="PS2_PAD_AXIS_Z">
+			<pl>PS2 Axis: Z</pl>
+			<en>PS2 Axis: Z</en>
+			<de>PS2 Axis: Z</de>
+		</text>-->
+		<text name="PS2_PAD_TRIGGER_L">
+			<pl>PS2 Trigger: L</pl>
+			<en>PS2 Trigger: L</en>
+			<de>PS2 Trigger: L</de>
+		</text>	
+		<text name="PS2_PAD_TRIGGER_R">
+			<pl>PS2 Trigger: R</pl>
+			<en>PS2 Trigger: R</en>
+			<de>PS2 Trigger: R</de>
+		</text>			
+    </l10n>
+		
+	<inputBindings>
+        <input name="PS2_PAD_CROSS" button="BUTTON_3" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_CIRCLE" button="BUTTON_2" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_SQUARE" button="BUTTON_4" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_TRIANGLE" button="BUTTON_1" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_LEFT" button="BUTTON_20" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_RIGHT" button="BUTTON_18" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_UP" button="BUTTON_17" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_DOWN" button="BUTTON_19" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_SELECT" button="BUTTON_9" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_START" button="BUTTON_10" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_L1" button="BUTTON_7" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_R1" button="BUTTON_8" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_L2" button="BUTTON_5" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_R2" button="BUTTON_6" axis="" device="0" invert="false" />
+		<!--<input name="PS2_PAD_AXIS_X" button="" axis="AXIS_1" device="0" invert="false" />
+		<input name="PS2_PAD_AXIS_Y" button="" axis="AXIS_2" device="0" invert="false" />
+		<input name="PS2_PAD_AXIS_RZ" button="" axis="AXIS_4" device="0" invert="false" />
+		<input name="PS2_PAD_AXIS_Z" button="" axis="AXIS_3" device="0" invert="false" />-->
+		<input name="PS2_PAD_TRIGGER_L" button="BUTTON_11" axis="" device="0" invert="false" />
+		<input name="PS2_PAD_TRIGGER_R" button="BUTTON_12" axis="" device="0" invert="false" />
+    </inputBindings>
+</modDesc>
