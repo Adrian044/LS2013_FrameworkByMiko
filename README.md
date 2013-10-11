@@ -5,7 +5,7 @@ Platform for creating advanced modifications.
 
 ## Installation
 
-Download the zip package and unpack into `Documents\My Games\FarmingSimulator2013` directory.
+Copy a1_frameworkByMiko.zip into `Documents\My Games\FarmingSimulator2013\mods` directory.
 
 
 
