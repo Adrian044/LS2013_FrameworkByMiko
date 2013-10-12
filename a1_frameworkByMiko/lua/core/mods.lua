@@ -1,5 +1,5 @@
 -------------------------------------------------------------+
--- Copyright © 2012 Rafał Mikołajun (MIKO) | rafal@mikoweb.pl
+-- Copyright © 2012-2013 Rafał Mikołajun (MIKO) | rafal@mikoweb.pl
 -- license: GNU General Public License version 3 or later; see LICENSE.txt
 --
 -- www.mikoweb.pl
@@ -25,6 +25,7 @@ function Mods:load()
 		local enable = v.xarg.enable;--]]
 		local name 		= v.name;
 		local enable 	= v.enable;
+		local events 	= v.events;
 		
 		if enable then
 			source(Utils.getFilename('/app/'..name..__EXT__, __DIR_GAME_MOD__..name));
@@ -32,6 +33,7 @@ function Mods:load()
 			self.list[name] = f(name);
 			self.list[name].modName = name;
 				
+			-- plik z informacjami o modzie
 			local modInfo = XML:new();
 			modInfo:open(Utils.getFilename('/mod_info.xml', __DIR_GAME_MOD__..name));
 			Mods:setRegistry(name, 'mod_info', modInfo);
@@ -39,17 +41,24 @@ function Mods:load()
 			
 			local requiredCore = modInfo:getValue('info.requiredCore', 'float');
 			if (requiredCore ~= nil and requiredCore<=__CORE_VERSION__) then
+				-- plik konfiguracyjny
 				local config = XML:new();
 				config:open(Utils.getFilename('/config.xml', __DIR_GAME_MOD__..name));
 				Mods:setRegistry(name, 'config', config);
 				self.list[name].Config = config;
 					
+				-- plik z klawiszami
 				local inputXml = XML:new();
 				inputXml:open(Utils.getFilename('/input.xml', __DIR_GAME_MOD__..name));	
 				local input = ModInput(inputXml);
 				Mods:setRegistry(name, 'input', input);
 				self.list[name].input = input;
 				
+				-- tablica z eventami
+				Mods:setRegistry(name, 'events', events);
+				self.list[name].events = events;
+				
+				-- ładowanie modyfikacji
 				self.list[name]:load();
 				print('Mod '..name..' Loaded');
 			else
